@@ -1,0 +1,78 @@
+/* Header.module.css */
+
+.header {
+    background-color: #2C3E50; /* Dark blue-gray for the header background */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .searchAndFilterContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .searchBlogInput {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border-radius: 50px;
+    border: 1px solid #7F8C8D;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: #ECF0F1; /* Light gray background for the input */
+  }
+  
+  .searchBlogInput:focus {
+    border-color: #3498DB; /* Change border color on focus */
+  }
+  
+  .searchIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #7F8C8D;
+    font-size: 20px;
+  }
+  
+  .filterContainer {
+    margin-left: 20px;
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .categorySelect {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #7F8C8D;
+    background-color: #ECF0F1;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .categorySelect:focus {
+    border-color: #3498DB;
+  }
+  
+  .option {
+    padding: 10px;
+    color: #2C3E50; /* Dark text for readability */
+    background-color: #ECF0F1; /* Light gray background */
+  }
+  
